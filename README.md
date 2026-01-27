@@ -7,21 +7,21 @@
 *Deploy your complete AI stack in minutes, not weeks*
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/anice-pony-horse/ai-launchkit?style=social)](https://github.com/anice-pony-horse/ai-launchkit)
-[![Repository Views](https://komarev.com/ghpvc/?username=anice-pony-horse&repo=ai-launchkit&label=Views&color=brightgreen)](https://github.com/anice-pony-horse/ai-launchkit)
-[![GitHub last commit](https://img.shields.io/github/last-commit/anice-pony-horse/ai-launchkit)](https://github.com/anice-pony-horse/ai-launchkit/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/anice-pony-horse/ai-launchkit)](https://github.com/anice-pony-horse/ai-launchkit/graphs/contributors)
+[![GitHub Stars](https://img.shields.io/github/stars/anice-pony-horse/n8n-ai-totally?style=social)](https://github.com/anice-pony-horse/n8n-ai-totally)
+[![Repository Views](https://komarev.com/ghpvc/?username=anice-pony-horse&repo=n8n-ai-totally&label=Views&color=brightgreen)](https://github.com/anice-pony-horse/n8n-ai-totally)
+[![GitHub last commit](https://img.shields.io/github/last-commit/anice-pony-horse/n8n-ai-totally)](https://github.com/anice-pony-horse/n8n-ai-totally/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/anice-pony-horse/n8n-ai-totally)](https://github.com/anice-pony-horse/n8n-ai-totally/graphs/contributors)
 
 [![GDPR Compliant](https://img.shields.io/badge/GDPR-Compliant-00A67E?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDFMMyA1djZjMCA1LjU1IDMuODQgMTAuNzQgOSAxMiA1LjE2LTEuMjYgOS02LjQ1IDktMTJWNWwtOS00eiIvPjwvc3ZnPg==)](https://gdpr.eu/)
-[![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-brightgreen)](https://github.com/anice-pony-horse/ai-launchkit)
+[![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-brightgreen)](https://github.com/anice-pony-horse/n8n-ai-totally)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Made in Europe](https://img.shields.io/badge/Made_in-Europe-003399)](https://github.com/anice-pony-horse/ai-launchkit)
+[![Made in Europe](https://img.shields.io/badge/Made_in-Europe-003399)](https://github.com/anice-pony-horse/n8n-ai-totally)
 
 [![Based on](https://img.shields.io/badge/Based%20on-n8n--installer-green)](https://github.com/kossakovsky/n8n-installer)
 
 [Installation](#-quick-start) • [Features](#-whats-included) • [Documentation](#-services) • [Support](#common-issues)
 
-German version: [German README](https://github.com/anice-pony-horse/ai-launchkit/blob/main/README_GERMAN.md)
+German version: [German README](https://github.com/anice-pony-horse/n8n-ai-totally/blob/main/README_GERMAN.md)
 
 </div>
 
@@ -74,7 +74,7 @@ AI LaunchKit was built with **European data protection regulations** at its core
 
 ```bash
 # One command to rule them all
-git clone https://github.com/anice-pony-horse/ai-launchkit && cd ai-launchkit && sudo bash ./scripts/install.sh
+git clone https://github.com/anice-pony-horse/n8n-ai-totally && cd n8n-ai-totally && sudo bash ./scripts/install.sh
 ```
 
 **That's it!** Your AI development stack is ready in ~10-15 minutes (or several hours with optional workflow import).
@@ -207,7 +207,7 @@ git clone https://github.com/anice-pony-horse/ai-launchkit && cd ai-launchkit &&
 | **[Scriberr](https://github.com/rishikanthc/Scriberr)** | AI audio transcription with WhisperX & speaker diarization | Meeting transcripts, podcast processing, call recordings, speaker identification | `scriberr.yourdomain.com` |
 | **[Vexa](https://github.com/Vexa-ai/vexa)** | Real-time meeting transcription API | Live transcription for Google Meet & Teams, speaker identification, 99 languages, n8n integration | Internal API |
 
-*If you have troubles installing or updating Vexa, please view this guide:* **[Vexa Workaround](https://github.com/anice-pony-horse/ai-launchkit/blob/main/vexa-troubleshooting-workarounds.md)**
+*If you have troubles installing or updating Vexa, please view this guide:* **[Vexa Workaround](https://github.com/anice-pony-horse/n8n-ai-totally/blob/main/vexa-troubleshooting-workarounds.md)**
 
 ### 🔍 Search & Web Data
 
@@ -290,7 +290,7 @@ Pre-installed in the n8n container for seamless media manipulation:
 ### Installation Command
 
 ```bash
-git clone https://github.com/anice-pony-horse/ai-launchkit && cd ai-launchkit && sudo bash ./scripts/install.sh
+git clone https://github.com/anice-pony-horse/n8n-ai-totally && cd n8n-ai-totally && sudo bash ./scripts/install.sh
 ```
 
 ### What the Installer Does
@@ -330,7 +330,7 @@ git clone https://github.com/anice-pony-horse/ai-launchkit && cd ai-launchkit &&
 ### Update Command
 
 ```bash
-cd ai-launchkit && sudo bash ./scripts/update.sh
+cd n8n-ai-totally && sudo bash ./scripts/update.sh
 ```
 
 ### What the Update Does
@@ -390,10 +390,10 @@ ssh -i ~/.ssh/your-key.pem user@YOUR_SERVER_IP
 
 ```bash
 # Clone AI LaunchKit
-git clone https://github.com/anice-pony-horse/ai-launchkit
+git clone https://github.com/anice-pony-horse/n8n-ai-totally
 
 # Navigate into directory
-cd ai-launchkit
+cd n8n-ai-totally
 ```
 
 #### Step 3: Run Installer
@@ -648,7 +648,7 @@ sudo systemctl restart docker
 docker network prune -f
 
 # Restart all services
-cd ai-launchkit
+cd n8n-ai-totally
 docker compose restart
 ```
 
@@ -671,7 +671,7 @@ Update AI LaunchKit when:
 
 **Check for updates:**
 ```bash
-cd ai-launchkit
+cd n8n-ai-totally
 git fetch origin
 git log HEAD..origin/main --oneline
 ```
@@ -682,7 +682,7 @@ git log HEAD..origin/main --oneline
 
 ```bash
 # Navigate to AI LaunchKit
-cd ai-launchkit
+cd n8n-ai-totally
 
 # Backup all Docker volumes
 tar czf backup-$(date +%Y%m%d).tar.gz \
@@ -701,14 +701,14 @@ cp docker-compose.yml docker-compose.yml.backup
 **Move backups to safe location:**
 ```bash
 # Create backup directory
-mkdir -p ~/ai-launchkit-backups
+mkdir -p ~/n8n-ai-totally-backups
 
 # Move backups
-mv backup-*.tar.gz ~/ai-launchkit-backups/
-mv backup-*.sql ~/ai-launchkit-backups/
+mv backup-*.tar.gz ~/n8n-ai-totally-backups/
+mv backup-*.sql ~/n8n-ai-totally-backups/
 
 # Verify backups exist
-ls -lh ~/ai-launchkit-backups/
+ls -lh ~/n8n-ai-totally-backups/
 ```
 
 ### Update Procedure
@@ -717,7 +717,7 @@ ls -lh ~/ai-launchkit-backups/
 
 ```bash
 # 1. Navigate to AI LaunchKit
-cd ai-launchkit
+cd n8n-ai-totally
 
 # 2. Run update script
 sudobash ./scripts/update.sh
@@ -853,7 +853,7 @@ If the update causes issues, rollback to the previous version:
 
 ```bash
 # 1. Navigate to AI LaunchKit
-cd ai-launchkit
+cd n8n-ai-totally
 
 # 2. View commit history
 git log --oneline -10
@@ -1042,7 +1042,7 @@ Stay informed about updates:
 If you encounter issues:
 
 1. **Check Logs**: `docker compose logs [service]`
-2. **Search Issues**: [GitHub Issues](https://github.com/anice-pony-horse/ai-launchkit/issues)
+2. **Search Issues**: [GitHub Issues](https://github.com/anice-pony-horse/n8n-ai-totally/issues)
 3. **Community Forum**: Ask for help
 4. **Rollback**: Use the procedure above if needed
 
@@ -1386,7 +1386,7 @@ docker exec [service-name] env | grep SMTP
 # Should show: SMTP_HOST=mailpit, SMTP_PORT=1025
 
 # 2. Check Docker network
-docker network inspect ai-launchkit_default | grep mailpit
+docker network inspect n8n-ai-totally_default | grep mailpit
 
 # 3. Test connection from service container
 docker exec [service-name] nc -zv mailpit 1025
@@ -1703,7 +1703,7 @@ docker compose up -d
 **Diagnosis:**
 ```bash
 # 1. Check if containers are on same network
-docker network inspect ai-launchkit_default
+docker network inspect n8n-ai-totally_default
 
 # Should show all service containers in "Containers" section
 
@@ -1795,7 +1795,7 @@ docker stats --no-stream
 docker compose restart [service-name]
 
 # Solution 2: Check MTU settings
-docker network inspect ai-launchkit_default | grep MTU
+docker network inspect n8n-ai-totally_default | grep MTU
 
 # Solution 3: Reduce DNS lookup time
 # Add to docker-compose.yml for services with issues:
@@ -2658,7 +2658,7 @@ docker compose version >> system-info.txt
 docker ps -a > container-status.txt
 
 # 3. Environment variables (REDACT PASSWORDS!)
-cp ~/.ai-launchkit/.env env-backup.txt
+cp ~/.n8n-ai-totally/.env env-backup.txt
 # Edit env-backup.txt and replace password values with "REDACTED"
 
 # 4. Service logs
@@ -2672,7 +2672,7 @@ docker compose config > docker-compose-processed.yml
 
 # 6. Network information
 docker network ls > networks.txt
-docker network inspect ai-launchkit_default > network-details.txt 2>&1
+docker network inspect n8n-ai-totally_default > network-details.txt 2>&1
 
 # 7. Resource usage
 docker stats --no-stream > resource-usage.txt
@@ -2693,7 +2693,7 @@ echo "Upload this file when creating a GitHub issue"
 # Make backups first!
 
 # 1. Stop all services
-cd ~/.ai-launchkit
+cd ~/.n8n-ai-totally
 docker compose down -v
 
 # 2. Remove all containers, images, volumes
@@ -2701,14 +2701,14 @@ docker system prune -a --volumes
 
 # 3. Remove AI LaunchKit directory
 cd ~
-rm -rf ~/.ai-launchkit
+rm -rf ~/.n8n-ai-totally
 
 # 4. Re-run installer
-curl -sSL https://raw.githubusercontent.com/anice-pony-horse/ai-launchkit/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/anice-pony-horse/n8n-ai-totally/main/install.sh | sudo bash
 
 # Or clone and run manually:
-git clone https://github.com/anice-pony-horse/ai-launchkit.git
-cd ai-launchkit
+git clone https://github.com/anice-pony-horse/n8n-ai-totally.git
+cd n8n-ai-totally
 chmod +x install.sh
 ./install.sh
 ```
@@ -2716,14 +2716,14 @@ chmod +x install.sh
 **Selective Service Reset:**
 ```bash
 # Reset specific service without affecting others
-cd ~/.ai-launchkit
+cd ~/.n8n-ai-totally
 
 # 1. Stop and remove container
 docker compose stop [service-name]
 docker compose rm [service-name]
 
 # 2. Remove service volume (if exists)
-docker volume rm ai-launchkit_[service-name]-data
+docker volume rm n8n-ai-totally_[service-name]-data
 
 # 3. Remove service configuration from .env
 nano .env
@@ -2735,7 +2735,7 @@ docker compose up -d [service-name]
 # Example: Reset n8n
 docker compose stop n8n
 docker compose rm n8n
-docker volume rm ai-launchkit_n8n-data
+docker volume rm n8n-ai-totally_n8n-data
 docker compose up -d n8n
 ```
 
@@ -2744,7 +2744,7 @@ docker compose up -d n8n
 **Before Creating a GitHub Issue:**
 
 1. **Search Existing Issues:**
-   - Check [GitHub Issues](https://github.com/anice-pony-horse/ai-launchkit/issues)
+   - Check [GitHub Issues](https://github.com/anice-pony-horse/n8n-ai-totally/issues)
    - Check [Community Forum](https://thinktank.ottomator.ai/c/local-ai/18)
    - Search for your error message
 
@@ -2770,7 +2770,7 @@ docker compose up -d n8n
    - Include any error messages
 
 **Community Resources:**
-- **GitHub Issues:** [Report a bug](https://github.com/anice-pony-horse/ai-launchkit/issues/new)
+- **GitHub Issues:** [Report a bug](https://github.com/anice-pony-horse/n8n-ai-totally/issues/new)
 
 </details>
 
@@ -2778,7 +2778,7 @@ docker compose up -d n8n
 
 **Community Resources:**
 - **LinkedIn**: [Friedemann Schuetz at LinkedIn](https://www.linkedin.com/in/friedemann-schuetz)
-- **Issues**: [GitHub Issues](https://github.com/anice-pony-horse/ai-launchkit/issues)
+- **Issues**: [GitHub Issues](https://github.com/anice-pony-horse/n8n-ai-totally/issues)
 
 **Before Creating an Issue:**
 1. Check existing GitHub Issues
@@ -2859,7 +2859,7 @@ Created and maintained by [Friedemann Schuetz](https://www.linkedin.com/in/fried
 - [self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit) by n8n team
 - [local-ai-packaged](https://github.com/coleam00/local-ai-packaged) by coleam00
 
-[View all contributors](https://github.com/anice-pony-horse/ai-launchkit/graphs/contributors)
+[View all contributors](https://github.com/anice-pony-horse/n8n-ai-totally/graphs/contributors)
 
 ---
 
@@ -2873,6 +2873,6 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 **Ready to launch your AI projects?**
 
-[⭐ Star this repo](https://github.com/anice-pony-horse/ai-launchkit) • [🐛 Report issues](https://github.com/anice-pony-horse/ai-launchkit/issues) • [🤝 Contribute](https://github.com/anice-pony-horse/ai-launchkit/pulls)
+[⭐ Star this repo](https://github.com/anice-pony-horse/n8n-ai-totally) • [🐛 Report issues](https://github.com/anice-pony-horse/n8n-ai-totally/issues) • [🤝 Contribute](https://github.com/anice-pony-horse/n8n-ai-totally/pulls)
 
 </div>

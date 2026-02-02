@@ -9,3 +9,4 @@ datasources:
     jsonData:
       timeInterval: 15s
     editable: true
+
